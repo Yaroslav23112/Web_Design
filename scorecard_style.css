@@ -1,0 +1,57 @@
+.header {
+	height: 15vh;
+	background-color: rgb(188, 185, 213);
+	margin-top: 10px;
+	border-radius: 10px;
+	text-align: center;
+	padding: 45px;
+}
+body{
+	height: 150px;
+    background-image: conic-gradient(blue, navy, black);
+    background-color: navy;
+}
+
+.card .card-header {
+	background-color: rgb(185, 192, 143);
+	transition: 0.2s;
+}
+
+.card .card-header:hover {
+	background-color: rgb(104, 166, 176);
+	transition: 0.2s;
+}
+
+#scorecard {
+	display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: 20%;
+}
+
+#scorecard td, #scorecard th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.emptyblank td{
+	height: 45px;
+	width: 65px;
+}
+
+#scorecard tr:nth-child(even){background-color: #f2f2f2;}
+#scorecard tr:nth-child(odd){background-color: #f2f2f2;}
+#scorecard tr:hover {background-color: #ddd;}
+
+#scorecard th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #aa0404;
+  color: white;
+}
+a {
+	font-size: 30px !important;
+	padding-right: 15px;
+	color: black
+}
