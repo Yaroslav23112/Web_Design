@@ -1,0 +1,66 @@
+.header {
+	height: 15vh;
+	background-color: rgb(183, 194, 38);
+	margin-top: 10px;
+	border-radius: 10px;
+	text-align: center;
+	padding: 45px;
+}
+body{
+    background-image:repeating-linear-gradient(135deg, 
+    rgb(153, 21, 21), hsl(298, 39%, 41%) 5%, rgb(116, 170, 45) 15%);
+    background-size: 50% 200%;
+    background-color: rgb(170, 56, 56);
+}
+
+.card .card-header {
+	background-color: #32a36599;
+	transition: 0.2s;
+}
+
+.card .card-header:hover {
+	background-color: #d8d5ca;
+	transition: 0.2s;
+}
+.review-card{
+	display: inline-flex;
+	height: 400px;
+	width: 300px;
+	background-color: rgb(69, 46, 173);
+	box-shadow: 10px 5px 3px black;
+}
+.invisibility{
+	color: rgba(255, 255, 255, 0.0);
+}
+.invisibility:hover{
+	color: rgb(167, 26, 26);
+}
+.review-card:nth-child(even){
+	background-color: darkblue;
+	background-image: repeating-linear-gradient(45deg, 
+    rgb(75, 29, 40), deepskyblue 25%);
+} 
+.review-card:hover{
+	transition: 1s;
+	transform: scale3d(1.25, 1.25, 2.0) translate3d(0px, 25px, 25px) rotate3d(1, 1, 0, 15deg);
+	z-index: 300;
+}
+
+.img {
+	background-color: #aaa;
+	padding: 20px;
+	background-size: cover;
+	background-position: center;
+}
+
+
+i {
+	font-size: 30px !important;
+	padding-right: 15px;
+	color: black	
+}
+
+a {
+	text-decoration: none !important;
+	color: black;
+}
